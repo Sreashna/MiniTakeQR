@@ -1,0 +1,19 @@
+@echo off
+"S:\\openlogic-openjdk-21.0.3+9-windows-x64\\SDK\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\LENOVO\\AndroidStudioProjects\\MiniTakeApp\\OpenCVLibrary\\libcxx_helper" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=21" ^
+  "-DANDROID_PLATFORM=android-21" ^
+  "-DANDROID_ABI=arm64-v8a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+  "-DANDROID_NDK=S:\\openlogic-openjdk-21.0.3+9-windows-x64\\SDK\\ndk\\27.0.12077973" ^
+  "-DCMAKE_ANDROID_NDK=S:\\openlogic-openjdk-21.0.3+9-windows-x64\\SDK\\ndk\\27.0.12077973" ^
+  "-DCMAKE_TOOLCHAIN_FILE=S:\\openlogic-openjdk-21.0.3+9-windows-x64\\SDK\\ndk\\27.0.12077973\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=S:\\openlogic-openjdk-21.0.3+9-windows-x64\\SDK\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\LENOVO\\AndroidStudioProjects\\MiniTakeApp\\OpenCVLibrary\\build\\intermediates\\cxx\\Debug\\70o3g1y4\\obj\\arm64-v8a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\LENOVO\\AndroidStudioProjects\\MiniTakeApp\\OpenCVLibrary\\build\\intermediates\\cxx\\Debug\\70o3g1y4\\obj\\arm64-v8a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-BC:\\Users\\LENOVO\\AndroidStudioProjects\\MiniTakeApp\\OpenCVLibrary\\.cxx\\Debug\\70o3g1y4\\arm64-v8a" ^
+  -GNinja ^
+  "-DANDROID_STL=c++_shared"

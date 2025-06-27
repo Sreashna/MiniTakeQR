@@ -1,0 +1,2 @@
+C:\Users\LENOVO\AndroidStudioProjects\MiniTakeApp\OpenCVLibrary\java\src\org\opencv\core\MatMatMul.kt
+C:\Users\LENOVO\AndroidStudioProjects\MiniTakeApp\OpenCVLibrary\java\src\org\opencv\core\MatAt.kt

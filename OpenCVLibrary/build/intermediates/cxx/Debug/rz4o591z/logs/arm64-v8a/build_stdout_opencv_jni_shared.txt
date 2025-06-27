@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\LENOVO\AndroidStudioProjects\MiniTakeApp\OpenCVLibrary\.cxx\Debug\rz4o591z\arm64-v8a'
+ninja: no work to do.
